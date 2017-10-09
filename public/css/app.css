@@ -17,3 +17,86 @@
 {
     font-size: 87px;
 }
+/*footer*/
+.footer
+{
+background-color:#0c1a1e;padding:3% 4%;
+}
+.footer h4
+{
+color:#fff;
+}
+ 
+/* section containg about and address  */
+.about_scanfcode p:first-child  // styles only first paragraph
+{
+color:#f2f2f2;
+line-height:140%;
+font-size:13px;
+width:100%;
+text-align:justify;
+}
+.about_scanfcode p
+{
+color:#d3d3d3;
+font-size:12px;
+}
+.about_scanfcode i //icons
+{
+color:#666;
+}
+ 
+/*  general link section */
+.links_scanfcode li
+{
+ list-style-type:none;margin:10px 0px;
+}
+.links_scanfcode a
+{
+ color:#666;
+ 
+}
+/* feedback and social icons */
+.feedback button
+{
+border-radius:0px;height:47px;
+}
+.feedback input:focus
+{
+ border:solid 1px green;
+}
+.feedback li
+{
+  list-style-type:none;
+  display:inline;
+  margin:30px 10px;
+}
+.feedback i
+{
+  font-size:24px;
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+}
+.feedback a:hover i
+{
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+   -o-transform: scale(1.2);
+}
+ .fa-facebook:hover {
+     color: #3B5998;
+ }
+ .fa-twitter:hover {
+     color: #4099FF;
+ }
+ .fa-google-plus:hover {
+     color: #d34836;
+ }
+.fa-linkedin:hover {
+     color: #f39c12;
+ }
+.fa-pinterest:hover
+{
+  color:#ff00cc;
+}
