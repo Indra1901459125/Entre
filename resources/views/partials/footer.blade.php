@@ -1,3 +1,4 @@
+<div class="row">
 <div class="col-md-12 footer">
 <div class="col-md-4 about_scanfcode">
    <h4>LOGO</h4>
@@ -32,5 +33,6 @@
 </div>
 <div class="col-md-12" style="text-align:center;padding:5px;color:#fff;">
 	© 2017, ServiceKomputer, All rights reserved
+</div>
 </div>
 </div>

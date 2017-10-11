@@ -20,7 +20,8 @@
                         <li><a href="#">Pinjam</a></li>
                     </ul>
                  </li>              
-             </ul>
+            </ul>
+            @yield('carts')
             <ul class="nav navbar-nav navbar-right">
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">

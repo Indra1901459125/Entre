@@ -11,6 +11,11 @@
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+Route::get('/product', [
+	'uses' => 'ProductController@index'
+]);
+
+Route::get('/product/{slug}', [
+	'uses' 	=> 'ProductDetailController@index',
+	'as'	=> 'detailproduct'
+]);
